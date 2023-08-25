@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+*{
+text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+height: 30px;
+line-height: 30px;
+font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Input_class{
+  margin-bottom: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+  padding: 20px;
+}
+.main{
+  background: burlywood;
+    margin: auto;
+    margin-top: 47px;
+    height: auto;
+    border: 1px solid burlywood;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+  width: 100px;
+  color: #000000;
+  border: 1px solid gray;
+  background-color: gray;
+  height: 30px;
+line-height: 30px;
+align-items: center;
+justify-content: center;
+display: flex;
+margin: auto;
+border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.updatebuttons {
+  display: inline-flex;
+}
+
+.logout{
+  height: 40px;
+  line-height: 30px;
+  width: 150px;
+  background-color: darkgray;
+  color: #fff;
+  font-size: 18px;
+}
+
+.delete{
+  height: 40px;
+  line-height: 30px;
+  width: 150px;
+  background-color:rgb(35, 59, 196);
+  border: 1px solid rgb(35, 59, 196);
+  color: #fff;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.signup{
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  width: 115px;  line-height: 30px;
+  background-color:rgb(82, 130, 5);
+  color: #fff;
+  border: 1px solid rgb(82, 130, 5);
+
+}
+
+.signin{
+  height: 30px;
+  line-height: 30px;
+  background-color:rgb(1, 95, 86);
+  color: #fff;
+  border: 1px solid rgb(1, 95, 86);
+}
+
+button:hover {
+  background-color: #0056B3;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #726060;
+  border-radius: 4px;
+}
+
+.delete:hover{
+  background-color: rgb(138, 31, 31);
+}
+
+.Homepage .main{
+  background: white;
+  border: none;
+}
+
+.Homepage h1 {
+  font-size: 40px;
+}
+
+.Homepage h3 {
+  font-size: 28px;
 }
