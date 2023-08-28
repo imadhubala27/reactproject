@@ -76,7 +76,10 @@ border-radius: 5px;
 }
 
 .signin{
-  height: 30px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px; 
+  width: 115px; 
   line-height: 30px;
   background-color:rgb(1, 95, 86);
   color: #fff;
